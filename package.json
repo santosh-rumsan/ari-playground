@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"ari-client": "^2.2.0"
+	},
+	"devDependencies": {
+		"@types/ari-client": "^2.2.12",
+		"ts-node": "^10.9.2"
+	}
+}
