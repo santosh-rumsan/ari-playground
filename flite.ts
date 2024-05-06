@@ -1,5 +1,6 @@
 import * as ariClient from "ari-client";
 import * as http from "http";
+import * as flite from "flite2";
 
 // Create ARI client and start listening for events
 ariClient.connect(

@@ -26,7 +26,7 @@ const events: any = {
 
 // Create ARI client and start listening for events
 ariClient.connect(
-  "http://192.168.1.71:8088/ari",
+  "http://192.168.1.61:8088/ari",
   "rumsan",
   "temp9670",
   (err, client) => {
@@ -39,8 +39,8 @@ ariClient.connect(
 
     client.channels.originate(
       {
-        //endpoint: "SIP/GOIP1/41+9779801109670",
-        endpoint: "SIP/cellcentric/17772927336110",
+        endpoint: "SIP/GOIP1/42+9779801109670",
+        //endpoint: "SIP/cellcentric/17772927336110",
         //endpoint: "PJSIP/701",
         //extension: "702",
         app: "app-name",
